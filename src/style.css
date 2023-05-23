@@ -8,7 +8,7 @@ body {
   background-color: rgba(127, 123, 152, 0.986);
 }
 
-.leaderboard-container{
+.leaderboard-container {
   display: flex;
   position: absolute;
   top: 30%;
@@ -20,30 +20,36 @@ body {
   width: 50%;
   background-color: #fff;
 }
-.submitForm-container{
+
+.submitForm-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50%;
 }
-.submit-score{
+
+.submit-score {
   display: flex;
   flex-direction: column;
 }
-.submit-score > *{
+
+.submit-score > * {
   margin-top: 15px;
 }
-.submit-btn{
+
+.submit-btn {
   padding: 8px 12px;
   width: 90px;
-  align-self:flex-end;
+  align-self: flex-end;
 }
-.submit-score input{
+
+.submit-score input {
   height: 30px;
   width: 260px;
 }
-.score-container{
+
+.score-container {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -51,37 +57,45 @@ body {
   align-items: center;
 }
 
-.score-container >*{
+.score-container > * {
   margin-top: 15px;
 }
-.list-container{
+
+.list-container {
   display: flex;
   justify-content: space-between;
   width: 300px;
 }
-.name-score{
+
+.name-score {
   list-style: none;
   display: flex;
   align-items: flex-start;
   width: 300px;
   margin-bottom: 6px;
 }
-.name-score >*{
+
+.name-score > * {
   margin-left: 10px;
 }
-h2, h1{
+
+h2,
+h1 {
   margin-top: 20px;
 }
-h1{
+
+h1 {
   margin-bottom: 20px;
 }
-.submited-scores{
+
+.submited-scores {
   border: 2px solid;
 }
 
-.name-score:nth-child(odd){
+.name-score:nth-child(odd) {
   background-color: #fff;
 }
-.name-score:nth-child(even){
+
+.name-score:nth-child(even) {
   background-color: rgb(127, 148, 255);
 }
