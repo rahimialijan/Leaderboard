@@ -20,9 +20,9 @@
 - [📝 License](#license)
 
 
-# 📖 [My To Do List] <a name="about-project"></a>
+# 📖 [LeaderBoard] <a name="about-project"></a>
 
-> **[My To Do List]**  My To Do List is a simple website that is created using ES6 syntax and modules to displays a list of tasks and allows you to add and remove tasks from that list.
+> **[LeaderBoard]**  is website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,7 +65,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://rahimialijan.github.io/To-Do-list-Microverse-Project/)
+- [Live Demo Link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
