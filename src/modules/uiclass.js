@@ -1,8 +1,6 @@
-
-
 const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/yAzAJFJQSZLJxVm1Hh1T/scores/';
 class UI {
-  static displayScores = async()=> {
+  static displayScores = async () => {
     const scores = await (await fetch(api)).json();
     scores.result.forEach((score) => UI.addScoreToBoard(score));
   }
@@ -33,6 +31,21 @@ class UI {
       }
     }
   }
+
+  static postUserInfo = async (user, score) => {
+    const response = await fetch(api,
+      {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ user, score }),
+      });
+    const data = await response.json();
+    return data.result;
+  };
+
+  static refreshData = async () => {
+    window.location.reload();
+  };
 }
 
 export default UI;
