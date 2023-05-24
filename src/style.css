@@ -32,6 +32,7 @@ body {
 .submit-score {
   display: flex;
   flex-direction: column;
+  width: 70%;
 }
 
 .submit-score > * {
@@ -46,7 +47,7 @@ body {
 
 .submit-score input {
   height: 30px;
-  width: 260px;
+  width: 100%;
 }
 
 .score-container {
@@ -64,14 +65,13 @@ body {
 .list-container {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 70%;
 }
 
 .name-score {
   list-style: none;
   display: flex;
   align-items: flex-start;
-  width: 300px;
   margin-bottom: 6px;
 }
 
@@ -90,6 +90,7 @@ h1 {
 
 .submited-scores {
   border: 2px solid;
+  width: 70%;
 }
 
 .name-score:nth-child(odd) {
