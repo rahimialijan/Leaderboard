@@ -2,7 +2,40 @@ class Store {
   static getScore() {
     let scores;
     if (localStorage.getItem('scores') === null) {
-      scores = [];
+      scores = [
+        {
+          name: 'alijan',
+          score: 50,
+        },
+        {
+          name: 'najib',
+          score: 40,
+        },
+        {
+          name: 'Bashir',
+          score: 100,
+        },
+        {
+          name: 'Dawod',
+          score: 70,
+        },
+        {
+          name: 'Ali',
+          score: 50,
+        },
+        {
+          name: 'naim',
+          score: 80,
+        },
+        {
+          name: 'jawad',
+          score: 30,
+        },
+        {
+          name: 'najib',
+          score: 40,
+        },
+      ];
     } else {
       scores = JSON.parse(localStorage.getItem('scores'));
     }
