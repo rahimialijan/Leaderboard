@@ -4,35 +4,35 @@ class Store {
     if (localStorage.getItem('scores') === null) {
       scores = [
         {
-          name: "alijan",
+          name: 'alijan',
           score: 50,
         },
         {
-          name: "najib",
+          name: 'najib',
           score: 40,
         },
         {
-          name: "Bashir",
+          name: 'Bashir',
           score: 100,
         },
         {
-          name: "Dawod",
+          name: 'Dawod',
           score: 70,
         },
         {
-          name: "Ali",
+          name: 'Ali',
           score: 50,
         },
         {
-          name: "naim",
+          name: 'naim',
           score: 80,
         },
         {
-          name: "jawad",
+          name: 'jawad',
           score: 30,
         },
         {
-          name: "najib",
+          name: 'najib',
           score: 40,
         },
       ];
