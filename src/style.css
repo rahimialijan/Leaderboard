@@ -19,6 +19,7 @@ body {
   border: 2px solid;
   width: 50%;
   background-color: #fff;
+  margin-top: 60px;
 }
 
 .submitForm-container {

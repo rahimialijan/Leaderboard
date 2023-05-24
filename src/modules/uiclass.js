@@ -1,9 +1,10 @@
-import Store from './store.js';
 
+
+const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/yAzAJFJQSZLJxVm1Hh1T/scores/';
 class UI {
-  static displayScores() {
-    const scores = Store.getScore();
-    scores.forEach((score) => UI.addScoreToBoard(score));
+  static displayScores = async()=> {
+    const scores = await (await fetch(api)).json();
+    scores.result.forEach((score) => UI.addScoreToBoard(score));
   }
 
   static addScoreToBoard(score) {
@@ -11,7 +12,7 @@ class UI {
     const li = document.createElement('li');
     li.classList.add('name-score');
     li.innerHTML = `
-        <span>${score.name}</span>
+        <span>${score.user}</span>
         <span>${score.score}</span>
         `;
     ul.appendChild(li);

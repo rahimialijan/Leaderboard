@@ -1,7 +1,6 @@
 import './style.css';
 import UI from './modules/uiclass.js';
 import Score from './modules/main.js';
-import Store from './modules/store.js';
 
 // Event for display the score on the page.
 document.addEventListener('DOMContentLoaded', () => {
@@ -22,7 +21,6 @@ document.querySelector('.submit-score').addEventListener('submit', (e) => {
     UI.addScoreToBoard(scores);
 
     // add scores to localstorage
-    Store.addScore(scores);
 
     // Clear the input fields
     UI.clearAllField();
