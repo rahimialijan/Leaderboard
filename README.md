@@ -28,6 +28,11 @@
 | Desktop Veiw Representation|
 |---------------------------------------|
 |<div align="center">![screenshot](./src/imgs/desktop-view.JPG)</div>|
+
+### Mobile view shoots for this project:
+
+| Mobile Veiw Representation|
+|---------------------------------------|
 |<div align="center">![screenshot](./src/imgs/mobile-view.JPG)</div>|
 
 <!-- TABLE OF CONTENTS -->
