@@ -1,10 +1,11 @@
 const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/yAzAJFJQSZLJxVm1Hh1T/scores/';
 class UI {
+  /*
   static displayScores = async () => {
     const scores = await (await fetch(api)).json();
     scores.result.forEach((score) => UI.addScoreToBoard(score));
   }
-
+  */
   static addScoreToBoard(score) {
     const ul = document.querySelector('.submited-scores');
     const li = document.createElement('li');
@@ -43,9 +44,29 @@ class UI {
     return data.result;
   };
 
+  static playGame() {
+
+  }
+
   static refreshData = async () => {
-    window.location.reload();
+    const scores = await (await fetch(api)).json();
+
+    const arr = [];
+    scores.result.forEach((res) => {
+      if (res.score > 200) {
+        arr.push(res);
+      }
+    });
+    /*
+    const filteredScores = scores.filter((score) => score.score > 200);
+    */
+    arr.forEach((score) => UI.addScoreToBoard(score));
   };
+
+  static clearScoreList() {
+    const scoreList = document.querySelector('.submited-scores');
+    scoreList.innerHTML = ''; // Remove all existing list items
+  }
 }
 
 export default UI;
