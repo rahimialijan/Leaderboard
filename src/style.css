@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: rgba(127, 123, 152, 0.986);
+  background-color: rgba(60, 57, 83, 0.986);
+  overflow: hidden;
 }
 
 .leaderboard-container {
@@ -16,10 +17,11 @@ body {
   transform: translate(-50%, -30%);
   justify-content: space-between;
   align-items: center;
-  border: 2px solid;
   width: 50%;
   background-color: #fff;
   margin-top: 60px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px #d6d6d6;
 }
 
 .submitForm-container {
@@ -73,7 +75,7 @@ body {
   list-style: none;
   display: flex;
   align-items: flex-start;
-  margin-bottom: 6px;
+  margin: 6px 10px;
 }
 
 .name-score > * {
@@ -90,8 +92,10 @@ h1 {
 }
 
 .submited-scores {
-  border: 2px solid;
+  border: 2px solid rgb(123, 198, 123);
   width: 70%;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
 .name-score:nth-child(odd) {
@@ -100,4 +104,15 @@ h1 {
 
 .name-score:nth-child(even) {
   background-color: rgb(127, 148, 255);
+}
+
+.btn {
+  background-color: rgb(127, 148, 255);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 2px;
+  border: none;
+  outline: none;
 }
