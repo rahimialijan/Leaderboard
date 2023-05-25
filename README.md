@@ -95,9 +95,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
@@ -118,8 +115,6 @@ Clone this repository to your desired folder:
 Use the following Commands:
   - cd your-desired-folder
   - git clone git@github.com:rahimialijan/To-Do-list-Microvers-Project.git
-
-
 
 
 ### Install
@@ -186,6 +181,15 @@ I would like to thank Microverse and my coding partners, and also give credit to
 YouTub Channel, For implementing this project this Channel was very helpful.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How to make it mobile friendly?**
+
+  - Put a viewport tag in the header
+
+- **How to design the site?**
+
+  - Draw a mockup before start to code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
