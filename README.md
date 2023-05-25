@@ -1,10 +1,48 @@
+
+<a name="readme-top"></a>
+
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+<div align="center">
+
+
+</div>
+
+<!-- Open pull request using the following structure
+
+  ## Project title: subtitle
+
+  ### 🌟Branch features:
+
+  - i
+  - ii
+  - iii
+
+  ### [ 🚀 Branch Demo](https://ab-noori.github.io/Project-Template/)
+
+-->
+
+> # Leaderboard
+### Desktop view shoots for this project:
+
+| Desktop Veiw Representation|
+|---------------------------------------|
+|<div align="center">![screenshot](./src/imgs/desktop-view.JPG)</div>|
+
+### Mobile view shoots for this project: 
+
+| Mobile Veiw Representation|
+|---------------------------------------|
+|<div align="center">![screenshot](./src/imgs/mobile-view.JPG)</div>|
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -62,14 +100,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- [Live Demo Link]( https://rahimialijan.github.io/Leaderboard/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
@@ -90,8 +120,6 @@ Clone this repository to your desired folder:
 Use the following Commands:
   - cd your-desired-folder
   - git clone git@github.com:rahimialijan/To-Do-list-Microvers-Project.git
-
-
 
 
 ### Install
@@ -158,6 +186,15 @@ I would like to thank Microverse and my coding partners, and also give credit to
 YouTub Channel, For implementing this project this Channel was very helpful.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How to make it mobile friendly?**
+
+  - Put a viewport tag in the header
+
+- **How to design the site?**
+
+  - Draw a mockup before start to code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
