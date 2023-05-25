@@ -1,3 +1,37 @@
+
+<a name="readme-top"></a>
+
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+<div align="center">
+
+
+</div>
+
+<!-- Open pull request using the following structure
+
+  ## Project title: subtitle
+
+  ### 🌟Branch features:
+
+  - i
+  - ii
+  - iii
+
+  ### [ 🚀 Branch Demo](https://ab-noori.github.io/Project-Template/)
+
+-->
+
+> # Leaderboard
+### Desktop view shoots for this project:
+
+| Desktop Veiw Representation|
+|---------------------------------------|
+|<div align="center">![screenshot](./src/imgs/desktop-view.JPG)</div>|
+|<div align="center">![screenshot](./src/imgs/mobile-view.JPG)</div>|
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -65,7 +99,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]( https://rahimialijan.github.io/Leaderboard/)
+- [Live Demo Link]( https://rahimialijan.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

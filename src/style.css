@@ -116,3 +116,12 @@ h1 {
   border: none;
   outline: none;
 }
+@media (max-width:768px) {
+  .leaderboard-container {
+    display: flex;
+   flex-direction: column;
+  }
+  .score-container, .submitForm-container{
+    width: 100%;
+  }
+}
