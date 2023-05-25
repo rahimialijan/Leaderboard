@@ -29,7 +29,7 @@
 |---------------------------------------|
 |<div align="center">![screenshot](./src/imgs/desktop-view.JPG)</div>|
 
-### Mobile view shoots for this project:
+### Mobile view shoots for this project: 
 
 | Mobile Veiw Representation|
 |---------------------------------------|
